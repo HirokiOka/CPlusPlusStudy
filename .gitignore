@@ -1,4 +1,4 @@
-introduction/*/Makefile
-introduction/*/all.h
-introduction*/all.h.gch
-introduction*/program
+*/Makefile
+*/all.h
+*/all.h.gch
+*/program
