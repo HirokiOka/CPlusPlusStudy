@@ -1,12 +1,14 @@
-struct Person {
-  std::string name;
-  int age;
+struct fractional {
+  int num;
+  int denom;
+
+  double value() {
+    return static_cast<double>(num) / static_cast<double>(denom);
+  }
 };
 
 int main() {
-  Person tanaka;
-  tanaka.name = "tanaka";
-  tanaka.age = 32;
+  fractional x{1, 2};
 
-  std::cout << tanaka.name;
+  std::cout << x.value();
 }
